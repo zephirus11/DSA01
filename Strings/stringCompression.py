@@ -13,13 +13,11 @@ cnt = 1
 for i in range(1,len(s)):
     if(s[i-1] == s[i]):
         cnt+=1
-        ch = s[i-1]
+    
     else:
-        if(ch == ''):
-            ch = s[i-1]
-        temp+=ch+str(cnt)
-        ch = ''
+        temp += s[i-1] + str(cnt)
         cnt = 1
-temp+=ch+str(cnt)
+
+temp += s[-1]+ str(cnt)
 
 print(temp)
