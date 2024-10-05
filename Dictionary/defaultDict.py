@@ -5,7 +5,7 @@ from collections import defaultdict
 d = defaultdict(list)
 wrd = "rreindeerrrr"
 LIST = wrd.split()
-for index,letter in enumerate(wrd):
+for index, letter in enumerate(wrd):
     if letter == "r":
         d[letter].append(index)
 
