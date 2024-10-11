@@ -26,6 +26,8 @@
 # else:
 #     print("key is absent")
 
+n, m = map(int, input("enter two numbs").split(" "))
+
 d = {
     "a":1,
     "b":2,
