@@ -5,7 +5,7 @@ d = {
     'yash': 2,
     'suraj': 15
 }
-# sorting by keys
+# # sorting by keys
 # l = list(d.keys())
 # l.sort()
 # print(l)
@@ -14,7 +14,7 @@ d = {
 # print(dnew)
 
 # sort by values
-# d = dict(w=10, p=0, o=2, k=19, m=4)
+d = dict(w=10, p=0, o=2, k=19, m=4)
 lval = list(d.values())
 lkey = list(d.keys())
 lval.sort()

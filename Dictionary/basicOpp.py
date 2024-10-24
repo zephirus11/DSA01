@@ -7,9 +7,10 @@ dic = {
     "isStudent": "No"
 }
 # adding any key-value externally
+dic.clear()
 dic["working"] = "Yes"
 print(dic)
-print(f'{dic.values()} \n, {dic.keys()} \n, {dic.items()} \n, {dic.pop("id")}')
+print(f'{dic.values()} \n, {dic.keys()} \n, {dic.items()} \n, {dic.pop("working")}')
 
 # clear():clears all the key-values in dictionary(d.clear())
 # copy():returns a shallow copy of dict . dict.copy()

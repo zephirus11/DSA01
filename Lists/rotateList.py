@@ -1,11 +1,13 @@
-l = [1, 2, 3, 4, 5, 6, 7]
-n = 3
+l = [1, 2, 3, 4, 5]
+n = 2
+
+print(l[n-4:])
 # lnew = l[0:n]
 # lnew2 = l[n:]
 # print(lnew2+lnew)
 
 # rotate left inplace one by one
-cnt = 1
+# cnt = 1
 # while (cnt <= n):
 #     first = l[0]
 #     for i in range(1, len(l)):

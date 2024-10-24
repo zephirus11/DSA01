@@ -13,9 +13,9 @@
 # print(lans)
 # print(l)
 
-# # optimized solution
-# n=5
-# NESTEDLIST = [[j for i in range(3)] for j in range(n)]
+# optimized solution
+# n = 5
+# NESTEDLIST = [[j for i in range(3)] for j in range(n+1)]
 # print(NESTEDLIST)
 
 
