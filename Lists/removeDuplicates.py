@@ -18,5 +18,5 @@ for i in LIST:
     n = LIST.count(i) #counting the i value in list
     if n > 1: #check those values only whose count is greater than one/
         if NEW_LIST.count(i) == 0: #append those i values whose count is zero in new list.
-            NEW_LIST.append(i)
+            NEW_LIST.append(i)  
 print(NEW_LIST)

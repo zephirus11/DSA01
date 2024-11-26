@@ -7,4 +7,4 @@ for i in range(len(s)):
         wrd = ""
         wrd+=s[i].lower()
         
-    print(wrd)
+print(wrd)

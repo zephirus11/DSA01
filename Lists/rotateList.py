@@ -1,7 +1,7 @@
 l = [1, 2, 3, 4, 5]
 n = 2
 
-print(l[n-4:])
+# print(l[n-4:])
 # lnew = l[0:n]
 # lnew2 = l[n:]
 # print(lnew2+lnew)
@@ -16,7 +16,6 @@ print(l[n-4:])
 #     cnt += 1
 
 # print(l)
-
 
 # rotating right
 # lback = l[:n+1]
